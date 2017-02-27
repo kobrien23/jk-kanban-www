@@ -6,7 +6,7 @@ import router from './router'
 import store from './store'
 
 window.axios = axios.create({
-  baseURL: 'http://localhost:3000/api/',
+  baseURL: 'http://vue-kanban.herokuapp.com/api/',
   timeout: 1000,
   withCredentials:true
 });
